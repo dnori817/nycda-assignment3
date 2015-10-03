@@ -18,3 +18,49 @@
 	top: 150px;
 	left: 0px;
 }
+
+
+
+nav ul {
+	list-style: none;
+	padding-left: 0px;
+	border: solid 1px black;
+}
+
+nav ul li{
+	border: solid 0px black;
+	width: 25%;
+	float: left;
+	text-align: center;
+	
+}
+
+nav ul li:hover{
+	background: black;
+	color: orange;
+	font-weight: bold;
+	font-size: 12pt;
+	cursor: pointer;
+}
+
+#mainArea{
+	clear: both;
+}
+
+section{
+	width:50%;
+	background: grey;
+	float:left;
+	min-height:80vh;
+	border: solid 0px black;
+}
+
+p{
+	padding: 10px;
+}
+
+footer{
+	text-align: center;
+	font-size: 8pt;
+	font-weight: bold;
+}
