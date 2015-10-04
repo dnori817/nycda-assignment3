@@ -1,14 +1,30 @@
+body{
+	background: #00004C;
+}
+
+#bkgrndimg{
+	width: 960px;
+	height: 100%;
+	position: absolute;
+	z-index: -1;
+	
+
+
+}
+
 .wrap{
 	border:solid 1px black;
 	width:960px;
 	margin:0 auto;
 	height:100vh;
+
 }
 
 #banner{
 	height:250px;
 	background: black;
 	width:100%;
+
 }
 #socialMediaDeck{
 	width: 75px;
@@ -37,7 +53,7 @@ nav ul li{
 
 nav ul li:hover{
 	background: black;
-	color: orange;
+	color: #CC3300;
 	font-weight: bold;
 	font-size: 12pt;
 	cursor: pointer;
@@ -49,9 +65,9 @@ nav ul li:hover{
 
 section{
 	width:50%;
-	background: grey;
+	background: rgba(128, 128, 128, .8);
 	float:left;
-	min-height:80vh;
+	min-height:100vh;
 	border: solid 0px black;
 }
 
@@ -63,4 +79,5 @@ footer{
 	text-align: center;
 	font-size: 8pt;
 	font-weight: bold;
+	color: #CC3300;
 }
