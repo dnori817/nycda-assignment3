@@ -1,5 +1,6 @@
 body{
-	background: #00004C;
+	background: rgb( 0, 0, 76);
+
 }
 
 #bkgrndimg{
@@ -24,6 +25,7 @@ body{
 	height:250px;
 	background: rgba(0, 0, 0, .3);
 	width:100%;
+	background-image: url(../img/metswebwallpaper.png);
 }
 
 
@@ -61,13 +63,41 @@ nav ul li:hover{
 	cursor: pointer;
 }
 
+#currentPage{
+	background: black;
+	color: #CC3300;
+	font-weight: bold;
+	font-size: 12pt;
+	cursor: default;
+	
+}
+
 a:link, a:visited{
 	text-decoration: none;
 	color: inherit;
 }
 
 #mainArea{
-	clear: both;
+ 	clear: both;
+}
+
+#gallery{
+	width: 100%;
+	background: rgba(128, 128, 128, .8);
+	min-height: 100vh;
+	border: solid 1px black;
+	text-align: center;
+	float: left;
+	position: relative;
+
+}
+
+#gallery img{
+	height: 200px;
+	width: 200px;
+	border: solid 1px black;
+	margin: 15px;
+
 }
 
 section{
